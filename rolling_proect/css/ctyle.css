@@ -1,0 +1,207 @@
+@font-face{
+	font-family: "BEBAS";
+	src: url("../fonts/BEBAS.ttf") format("truetype");
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face{
+	font-family: "StMarie-Thin";
+	src: url("../fonts/StMarie-Thin.ttf") format("truetype");
+	font-style: normal; 
+	font-weight: normal; 
+}
+/*HEADER=============================*/
+header{
+	
+}
+.header{
+	overflow: hidden;
+	padding: 20px 0;
+}
+.logo{
+	float: left;
+	width: 500px;
+}
+.logo img{
+	float: left;
+	margin-right: 50px;
+}
+.logo p{
+	font-size: 25px;
+	margin: 10px 0 0 0;
+	color: #fb9c06;
+	font-family: "BEBAS";
+}
+.logo h1{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #6e6d6b;
+	font-family: "BEBAS";
+}
+nav {
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	margin: 10px 30px 0 30px;
+}
+nav ul li img{
+	display: block;
+	margin: 0 auto 10px auto
+}
+nav ul li a{
+	text-align: center;
+	font-size: 24px;
+	color: #9e9b9b;
+	font-family: "Regular";
+}
+nav ul li a:hover{
+	color: red;
+}
+.headre-main{
+	background: url(../img/bg-Header.png) center no-repeat;
+	background-size: cover;
+	border-top:4px solid #fcba50;
+	border-bottom: 4px solid #fb9c06;
+	overflow: hidden;
+	padding: 170px 0;
+}
+.headre-main p{
+	background: rgba(75, 79, 79, 0.8);
+	color: #fb9c06;
+	padding: 10px 40px;
+	float: left;
+	font-size: 35px;
+	text-transform: uppercase;
+	clear: both;
+	margin-bottom: 20px;
+	margin-left: 3px;
+	font-family: "BEBAS";
+}
+.headre-main h2{
+	background: rgba(251, 156, 6, 0.79);
+	color:  #4b4f4f;
+	padding: 10px 40px;
+	float: left;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-family: "BEBAS";
+}
+/*ARTICLE===================================*/
+article{
+	overflow: hidden;
+}
+.bloc_content{
+	width: 25%;
+	float: left;
+	padding: 0 20px;
+	margin-top: 30px;
+}
+.bloc_content p{
+	font-weight: bold;
+}
+.bloc_content a{
+	color: #ffac00;
+	float: right;
+	margin-top: 10px;
+}
+article h2{
+	text-align: center;
+	font-size: 40px;
+	color: #ff9c00;
+	text-decoration:underline;
+	margin: 50px 0;
+	font-family: "StMarie-Thin";
+}
+.block_foto{
+	width:33.333333%;
+	float: left;
+}
+.block_foto h3{
+	text-align: center;
+	font-size: 22px;
+	font-family: Light;
+	color: #6e6d6b;
+}
+.block_foto span{
+	color: #fb9c06;
+}
+.block_foto img{
+	display: block;
+	border-radius: 50%;
+	margin: 50px auto;
+	border: 8px solid #ffb540;
+}
+.block_foto p{
+	padding: 0 70px;
+	color: #333333;
+}
+form{
+	overflow: hidden;
+}
+form input,textarea{
+	width: 90%;
+	float: right;
+	margin-bottom: 20px;
+	padding: 5px 2px;
+	background:#f8f7f6;
+	border-top: 2px solid #d2d0cf;
+	border-left:4px solid #d2d0cf;
+	font-size: 16px;
+	text-transform:capitalize;
+}
+
+textarea:focus{
+	color: #6e6d6b;
+	border: 3px solid #fb9c06;
+}
+input:focus{
+	color: #6e6d6b;
+	border: 3px solid #fb9c06;
+}
+
+button{
+	display: block;
+	float: right;
+	color: #fff;
+	background:#fb9c06;
+	border: none;
+	font-size: 30px;
+	padding: 5px 30px;
+	margin-right: 30px;
+	font-family: "StMarie-Thin";
+	-webkit-box-shadow: inset 0px -4px 1px rgba(129, 78, 0, 0.55);
+	box-shadow: inset 0px -4px 1px rgba(129, 78, 0, 0.55);
+	border: 1px solid rgb(211, 127, 0);
+	margin-bottom: 50px;
+}
+label{
+	color: #fb9c06;
+	font-size: 24px!important;
+	display: block;
+	margin-bottom: 30px!important;
+	font-family: "StMarie-Thin";
+}
+/*FOOTER====================================*/
+footer{
+	margin-top: 50px;
+	color: #fff;
+	background: #fb9c06;
+	font-size: 33px;
+	padding: 10px 0 5px 0; 
+	-webkit-box-shadow: inset 0px -4px 1px rgba(129, 78, 0, 0.55);
+	box-shadow: inset 0px -4px 1px rgba(129, 78, 0, 0.55);
+/*
+	position:fixed;
+	bottom: 0px;
+	width: 100%
+*/
+}
+
+footer p{
+	font-size: 33px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "StMarie-Thin";
+}
